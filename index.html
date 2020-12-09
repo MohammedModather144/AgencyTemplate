@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="create template responsive website design with bootstrap 4"/>
+    <meta name="keywords" content="html,css,template, desingn" />
+    <title>AGENCY</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap"/>
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="lightbox/css/lightbox.min.css"/>
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/media.css" />
+  </head>
+  <body>
+    <!-- Start Header -->
+    <div class="nav-header nav-home d-none d-md-block">
+      <div class="container">
+        <div class="logo">
+          <img src="images/logo-alt.webp" alt="Images Logo" draggable="false" />
+        </div><!-- ./logo -->
+        <ul class="nav-links">
+          <li class="active"><a href="#">Home</a></li>
+          <li><a data-value="about" href="#">About</a></li>
+          <li><a data-value="portifolio" href="#">Portifolio</a></li>
+          <li><a data-value="services" href="#">Services</a></li>
+          <li><a data-value="price" href="#">Price</a></li>
+          <li><a data-value="team" href="#">Team</a></li>
+          <li class="dropdown">
+            <a data-value="blog"  href="#">Blog</a>
+            <ul class="dropdown-menu">
+              <li><a href="blog.html">Blog Bost</a></li>
+            </ul>
+          </li>
+          <li><a data-value="contact-us" href="#">Contact</a></li>
+        </ul><!-- ./nav-links -->
+        <div class="clearfix"></div>
+      </div><!-- ./container -->
+    </div><!-- ./nav-header -->
+    <!--Show Menu In Mobile -->
+    <div class="side_menu d-md-none">
+      <div class="burger_box">
+        <div class="menu-icon-container">
+          <a href="#" class="menu-icon js-menu_toggle closed">
+            <span class="menu-icon_box">
+              <span class="menu-icon_line menu-icon_line--1"></span>
+              <span class="menu-icon_line menu-icon_line--2"></span>
+              <span class="menu-icon_line menu-icon_line--3"></span>
+            </span>
+          </a>
+        </div>
+      </div>
+      <div class="px-5">
+        <div class="logo">
+          <img src="images/logo-alt.webp" alt="Images Logo" draggable="false" />
+        </div><!-- ./logo -->
+        <ul class="list_load">
+          <li class="list_item"><a href="#">Home</a></li>
+          <li class="list_item"><a data-value="about" href="#">About</a></li>
+          <li class="list_item"><a data-value="portifolio" href="#">Portifolio</a></li>
+          <li class="list_item"><a data-value="services" href="#">Services</a></li>
+          <li class="list_item"><a data-value="price" href="#">Price</a></li>
+          <li class="list_item"><a data-value="team" href="#">Team</a></li>
+          <li class="list_item"><a data-value="blog" href="#">Blog</a></li>
+          <li class="list_item"><a  data-value="contact-us"href="#">Contact</a></li>
+        </ul> <!-- ./list_load -->
+      </div>
+    </div> <!-- ./side_menu -->
+    <!--Start Home Section-->
+    <div class="home">
+      <div class="overlay">
+        <div class="home-content">
+          <h1 class="title">we are creative agency</h1>
+          <p class="desc">
+            Morbi mattis felis at nunc. Duis viverra diam non justo. In nisl.
+            Nullam sit amet magna in magna gravida vehicula. Mauris tincidunt
+            sem sed arcu. Nunc posuere.
+          </p>
+          <button class="btn btn-start hover-opacity">Get Started !</button>
+          <button class="btn btn-learn hover-opacity">Learn More</button>
+        </div><!-- ./home-content -->
+      </div><!-- ./overlay -->
+    </div><!-- ./home -->
+    <!--Start About Section-->
+    <div id="about" class="about pd-y">
+      <div class="container">
+        <section class="section-headers">
+          <h2 class="title">Welcome To Website</h2>
+          <span class="line"></span>
+        </section><!-- ./section-headers -->
+        <div class="row">
+          <div class="col-md-4">
+            <div class="about-item hover-left">
+              <i class="fa fa-cogs fa-2x fa-fw"></i>
+              <h3 class="title">Fully Customizible</h3>
+              <p class="desc">Maecenas tempus tellus eget condimentum  eget condimentum rhoncus sem quam semper rhoncus sem quam semper  eget condimentum rhoncus sem quam semper libero sit amet.</p>
+              <a class="link" href="#">Read more</a>
+            </div><!-- /.about-item -->
+          </div>
+          <div class="col-md-4">
+            <div class="about-item hover-left">
+              <i class="fa fa-magic fa-2x fa-fw"></i>
+              <h3 class="title">Awesome Features</h3>
+              <p class="desc">Maecenas tempus tellus eget condimentum rhoncus eget condimentum rhoncus sem quam semper eget condimentum rhoncus sem quam semper sem quam semper libero sit amet.</p>
+              <a class="link" href="#">Read more</a>
+            </div><!-- /.about-item -->
+          </div>
+          <div class="col-md-4">
+            <div class="about-item hover-left">
+              <i class="fa fa-mobile fa-2x fa-fw"></i>
+              <h3 class="title">Fully Responsive</h3>
+              <p class="desc">Maecenas tempus tellus eget condimentum eget condimentum rhoncus sem quam semper eget condimentum rhoncus sem quam semper rhoncus sem quam semper libero sit amet.</p>
+              <a class="link" href="#">Read more</a>
+            </div><!-- /.about-item -->
+          </div>
+        </div> <!-- /.row -->
+      </div><!-- /.container -->
+    </div><!-- ./about -->
+    <!--Start Our Work Section-->
+    <div id="portifolio" class="our-work pd-y">
+      <div class="container">
+        <section class="section-headers">
+          <h2 class="title">Featured Works</h2>
+          <span class="line"></span>
+        </section><!-- ./section-headers -->
+        <div class="row">
+          <div class="col-md-4 col-6">
+            <div class="our-work-item">
+              <img class="img-fluid" src="images/work/work1.webp" alt="images alt 1">
+              <div class="overlay-work">
+               <div class="content">
+                <span class="catogary">CATEGORY</span>
+                <h3 class="title">Lorem ipsum dolor</h3>
+                <div class="work-link">
+                  <a data-lightbox="img-work" href="images/work/work1.webp" data-title="Image Work 1"><i class="fa fa-external-link fa-fw fa-lg"></i></a>
+                  <a href="#"><i class="fa fa-search fa-fw fa-lg"></i></a>
+                </div> <!-- ./work-link -->
+               </div> <!-- ./content -->
+              </div> <!-- ./layer-content -->
+            </div> <!-- ./our-work-item -->
+          </div>
+          <div class="col-md-4 col-6">
+            <div class="our-work-item">
+              <img class="img-fluid" src="images/work/work2.webp" alt="images alt 2">
+              <div class="overlay-work">
+                <div class="content">
+                  <span class="catogary">CATEGORY</span>
+                  <h3 class="title">Lorem ipsum dolor</h3>
+                 <div class="work-link">
+                   <a data-lightbox="img-work" href="images/work/work2.webp" data-title="Image Work 2"><i class="fa fa-external-link fa-fw fa-lg"></i></a>
+                   <a href="#"><i class="fa fa-search fa-fw fa-lg"></i></a>
+                 </div> <!-- ./work-link -->
+                </div> <!-- ./content -->
+               </div> <!-- ./layer-content -->
+            </div> <!-- ./our-work-item -->
+          </div>
+          <div class="col-md-4 col-6">
+            <div class="our-work-item">
+              <img class="img-fluid" src="images/work/work3.webp" alt="images alt 3">
+              <div class="overlay-work">
+                <div class="content">
+                  <span class="catogary">CATEGORY</span>
+                  <h3 class="title">Lorem ipsum dolor</h3>
+                 <div class="work-link">
+                   <a data-lightbox="img-work" href="images/work/work3.webp" data-title="Image Work 3"><i class="fa fa-external-link fa-fw fa-lg"></i></a>
+                   <a href="#"><i class="fa fa-search fa-fw fa-lg"></i></a>
+                 </div> <!-- ./work-link -->
+                </div> <!-- ./content -->
+               </div> <!-- ./layer-content -->
+            </div> <!-- ./our-work-item -->
+          </div>
+          <div class="col-md-4 col-6">
+            <div class="our-work-item">
+              <img class="img-fluid" src="images/work/work4.webp" alt="images alt 4">
+              <div class="overlay-work">
+                <div class="content">
+                  <span class="catogary">CATEGORY</span>
+                  <h3 class="title">Lorem ipsum dolor</h3>
+                 <div class="work-link">
+                   <a data-lightbox="img-work" href="images/work/work4.webp" data-title="Image Work 4"><i class="fa fa-external-link fa-fw fa-lg"></i></a>
+                   <a href="#"><i class="fa fa-search fa-fw fa-lg"></i></a>
+                 </div> <!-- ./work-link -->
+                </div> <!-- ./content -->
+               </div> <!-- ./layer-content -->
+            </div> <!-- ./our-work-item -->
+          </div>
+          <div class="col-md-4 col-6">
+            <div class="our-work-item">
+              <img class="img-fluid" src="images/work/work5.webp" alt="images alt 5">
+              <div class="overlay-work">
+                <div class="content">
+                  <span class="catogary">CATEGORY</span>
+                  <h3 class="title">Lorem ipsum dolor</h3>
+                 <div class="work-link">
+                   <a data-lightbox="img-work" href="images/work/work5.webp" data-title="Image Work 5"><i class="fa fa-external-link fa-fw fa-lg"></i></a>
+                   <a href="#"><i class="fa fa-search fa-fw fa-lg"></i></a>
+                 </div> <!-- ./work-link -->
+                </div> <!-- ./content -->
+               </div> <!-- ./layer-content -->
+            </div> <!-- ./our-work-item -->
+          </div>
+          <div class="col-md-4 col-6">
+            <div class="our-work-item">
+              <img class="img-fluid" src="images/work/work6.webp" alt="images alt 6">
+              <div class="overlay-work">
+                <div class="content">
+                  <span class="catogary">CATEGORY</span>
+                  <h3 class="title">Lorem ipsum dolor</h3>
+                 <div class="work-link">
+                   <a data-lightbox="img-work" href="images/work/work6.webp" data-title="Image Work 6"><i class="fa fa-external-link fa-fw fa-lg"></i></a>
+                   <a href="#"><i class="fa fa-search fa-fw fa-lg"></i></a>
+                 </div> <!-- ./work-link -->
+                </div> <!-- ./content -->
+               </div> <!-- ./layer-content -->
+            </div> <!-- ./our-work-item -->
+          </div>
+        </div> <!-- ./row -->
+      </div> <!-- ./container -->
+    </div> <!-- ./our-work -->
+    <!--Start Offer-->
+    <div id="services" class="offer pd-y">
+      <div class="container">
+        <section class="section-headers">
+          <h2 class="title">What We Offer</h2>
+          <span class="line"></span>
+        </section><!-- ./section-headers -->
+        <div class="row">
+          <div class="col-md-4 col">
+            <div class="offer-item hover-left">
+              <i class="icon fa fa-diamond fa-fw fa-lg"></i>
+              <h3 class="title">App Developer</h3>
+              <p class="desc">Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero.</p>
+            </div> <!-- ./offer-item -->
+          </div>
+          <div class="col-md-4 col">
+            <div class="offer-item hover-left">
+              <i class="icon fa fa-rocket fa-fw fa-lg"></i>
+              <h3 class="title">Graphic Design</h3>
+              <p class="desc">Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero.</p>
+            </div> <!-- ./offer-item -->
+          </div>
+          <div class="col-md-4 col">
+            <div class="offer-item hover-left">
+              <i class="icon fa fa-cogs fa-fw fa-lg"></i>
+              <h3 class="title">Creative Idea</h3>
+              <p class="desc">Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero.</p>
+            </div> <!-- ./offer-item -->
+          </div>
+          <div class="col-md-4 col">
+            <div class="offer-item hover-left">
+              <i class="icon fa fa-bell fa-fw fa-lg"></i>
+              <h3 class="title">Marketing</h3>
+              <p class="desc">Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero.</p>
+            </div> <!-- ./offer-item -->
+          </div>
+          <div class="col-md-4 col">
+            <div class="offer-item hover-left">
+              <i class="icon fa fa-pencil fa-fw fa-lg"></i>
+              <h3 class="title">Support</h3>
+              <p class="desc">Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero.</p>
+            </div> <!-- ./offer-item -->
+          </div>
+          <div class="col-md-4 col">
+            <div class="offer-item hover-left">
+              <i class="icon fa fa-flask fa-fw fa-lg"></i>
+              <h3 class="title">Brand Design</h3>
+              <p class="desc">Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero.</p>
+            </div> <!-- ./offer-item -->
+          </div>
+        </div> <!-- ./row -->
+      </div> <!-- ./container -->
+    </div> <!-- ./offer -->
+    <!--Start choose us-->
+    <div class="choose-us pd-y">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="choouse-us-left">
+              <section class="section-headers text-left">
+                <h2 class="title">Why Choose Us</h2>
+                <span class="line"></span>
+              </section><!-- ./section-headers -->
+              <p class="desc">Molestie at elementum eu facilisis sed odio. Scelerisque in dictum non consectetur a erat. Aliquam id diam maecenas ultricies mi eget mauris. Ultrices sagittis orci a scelerisque purus.</p>
+              <ul class="list-unstyled">
+                <li><i class="fa fa-check fa-fw"></i> Quis varius quam quisque id diam vel quam elementum.</li>
+                <li><i class="fa fa-check fa-fw"></i> Mauris augue neque gravida in fermentum.</li>
+                <li><i class="fa fa-check fa-fw"></i> Orci phasellus egestas tellus rutrum.</li>
+                <li><i class="fa fa-check fa-fw"></i> Nec feugiat nisl pretium fusce id velit ut tortor pretium.</li>
+                <li><i class="fa fa-check fa-fw"></i> Mauris augue neque gravida in fermentum</li>
+                <li><i class="fa fa-check fa-fw"></i> Orci phasellus egestas tellus rutrum.</li>
+                <li><i class="fa fa-check fa-fw"></i> Quis varius quam quisque id diam vel quam elementum.</li>
+              </ul> <!-- ./list-unstyled -->
+            </div> <!-- ./choose-us-left -->
+          </div>
+          <div class="col-md-6">
+            <div class="choose-us-right">
+              <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                </ol> <!--./carousel-indicators -->
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img class="d-block w-100" src="images/about/about1.webp" alt="First slide">
+                  </div> <!-- ./carousel-item -->
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="images/about/about2.webp" alt="Second slide">
+                  </div> <!-- ./carousel-item -->
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="images/about/about1.webp" alt="Third slide">
+                  </div> <!-- ./carousel-item -->
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="images/about/about2.webp" alt="Third slide">
+                  </div> <!-- ./carousel-item -->
+                </div> <!-- ./carousel-inner -->
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"><i class="fa fa-angle-left fa-fw"></i></span>
+                  <span class="sr-only">Previous</span>
+                </a> <!-- ./carousel-control-prev -->
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"><i class="fa fa-angle-right fa-fw"></i></span>
+                  <span class="sr-only">Next</span>
+                </a> <!-- ./carousel-control-next -->
+              </div> <!-- ./carousel side -->
+            </div> <!-- ./choose-us-right -->
+          </div>
+        </div> <!-- ./row -->
+      </div> <!-- ./container -->
+    </div> <!-- ./choose-us -->
+    <!-- Start Statistic Section-->
+    <div class="statistic pd-y text-center">
+      <div class="overlay">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3 col-6">
+              <div class="statistic-content">
+                <div class="statistic-item">
+                  <i class="fa fa-users fa-2x fa-fw"></i>
+                  <h2 class="h3 title">451</h2>
+                  <span class="desc">Happy clients</span>
+                </div> <!-- ./statistic-item -->
+              </div> <!-- ./statistic-content -->
+            </div>
+            <div class="col-md-3 col-6">
+              <div class="statistic-content">
+                <div class="statistic-item">
+                  <i class="fa fa-trophy fa-2x fa-fw"></i>
+                  <h2 class="h3 title">12</h2>
+                  <span class="desc">Awards won</span>
+                </div> <!-- ./statistic-item -->
+              </div> <!-- ./statistic-content -->
+            </div>
+            <div class="col-md-3 col-6">
+              <div class="statistic-content mg-t">
+                <div class="statistic-item">
+                  <i class="fa fa-coffee fa-2x fa-fw"></i>
+                  <h2 class="h3 title">154k</h2>
+                  <span class="desc">Cups of Coffee</span>
+                </div> <!-- ./statistic-item -->
+              </div> <!-- ./statistic-content -->
+            </div>
+            <div class="col-md-3 col-6">
+              <div class="statistic-content mg-t">
+                <div class="statistic-item">
+                  <i class="fa fa-file fa-2x fa-fw"></i>
+                  <h2 class="h3 title">45</h2>
+                  <span class="desc">Projects completed</span>
+                </div> <!-- ./statistic-item -->
+              </div> <!-- ./statistic-content -->
+            </div>
+          </div> <!-- ./row -->
+        </div> <!-- ./container -->
+      </div> <!-- ./overlay -->
+    </div> <!-- ./statistic -->
+    <!-- Start Pricing Table-->
+    <div id="price" class="pricing-table pd-y">
+      <div class="container">
+        <section class="section-headers">
+          <h2 class="title">Pricing Table</h2>
+          <span class="line"></span>
+        </section><!-- ./section-headers -->
+        <div class="row">
+          <div class="col-md-4">
+            <div class="pricing-table-item hover-top">
+              <span class="title">BASIC PLAN</span>
+              <div class="price-month">
+                <h3 class="doler">$9</h3>
+                <span class="month">/ MONTH</span>
+              </div> <!-- ./price-month -->
+              <ul class="price-list list-unstyled">
+                <li>1GB Disk Space</li>
+                <li>100 Email Account</li>
+                <li>24/24 Support</li>
+              </ul> <!-- ./price-list -->
+              <button class="btn"> <a href="#"></a>Purchase now</button>
+            </div> <!-- ./pricing-table-item -->
+          </div>
+          <div class="col-md-4">
+            <div class="pricing-table-item hover-top">
+              <span class="title">SILVER PLAN</span>
+              <div class="price-month">
+                <h3 class="doler">$19</h3>
+                <span class="month">/ MONTH</span>
+              </div> <!-- ./price-month -->
+              <ul class="price-list list-unstyled">
+                <li>1GB Disk Space</li>
+                <li>100 Email Account</li>
+                <li>24/24 Support</li>
+              </ul> <!-- ./price-list -->
+              <button class="btn"> <a href="#"></a>Purchase now</button>
+            </div> <!-- ./pricing-table-item -->
+          </div>
+          <div class="col-md-4">
+            <div class="pricing-table-item hover-top">
+              <span class="title">GOLD PLAN</span>
+              <div class="price-month">
+                <h3 class="doler">$39</h3>
+                <span class="month">/ MONTH</span>
+              </div> <!-- ./price-month -->
+              <ul class="price-list list-unstyled">
+                <li>1GB Disk Space</li>
+                <li>100 Email Account</li>
+                <li>24/24 Support</li>
+              </ul> <!-- ./price-list -->
+              <button class="btn"> <a href="#"></a>Purchase now</button>
+            </div> <!-- ./pricing-table-item -->
+          </div>
+        </div> <!-- ./row -->
+      </div> <!--./container -->
+    </div> <!-- ./pricing-table -->
+    <!-- Start Our Team-->
+    <div class="our-testimonial">
+     <div class="overlay">
+      <div class="container">
+        <div id="carouselExampleSlidesOnly" data-interval="800000" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row">
+                <div class="col-6">
+                  <div class="our-testimonial-item">
+                    <div class="item-head">
+                      <div class="row">
+                        <div class="col-md-3 col-4">
+                          <img class="item-head-img" src="images/testimonial/perso1.webp" alt="images John Doe ">
+                        </div>
+                        <div class="col-md-9 col-8">
+                          <h2 class="h3 item-head-title">John Doe</h2>
+                          <span class="item-head-desc text-uppercase">Web Designer</span>
+                        </div>
+                      </div> <!-- ./row -->
+                    </div> <!-- ./item-head -->
+                    <p class="item-body">Molestie at elementum eu facilisis sed odio. Scelerisque in dictum non consectetur a erat. Aliquam id diam maecenas ultricies mi eget mauris.</p>
+                  </div> <!-- ./our-testimonial-item -->
+                </div>
+                <div class="col-6">
+                  <div class="our-testimonial-item">
+                    <div class="item-head">
+                      <div class="row">
+                        <div class="col-md-3 col-4">
+                          <img class="item-head-img" src="images/testimonial/perso2.webp" alt="images John Doe ">
+                        </div>
+                        <div class="col-md-9 col-8">
+                          <h2 class="h3 item-head-title">John Doe</h2>
+                          <span class="item-head-desc text-uppercase">Web Designer</span>
+                        </div>
+                      </div> <!-- ./row -->
+                    </div> <!-- ./item-head -->
+                    <p class="item-body">Molestie at elementum eu facilisis sed odio. Scelerisque in dictum non consectetur a erat. Aliquam id diam maecenas ultricies mi eget mauris.</p>
+                  </div> <!-- ./our-testimonial-item -->
+                </div>
+              </div> <!-- ./row -->
+            </div> <!-- ./carousel-item -->
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-6">
+                  <div class="our-testimonial-item">
+                    <div class="item-head">
+                      <div class="row">
+                        <div class="col-md-3 col-4">
+                          <img class="item-head-img" src="images/testimonial/perso2.webp" alt="images John Doe ">
+                        </div>
+                        <div class="col-md-9 col-8">
+                          <h2 class="h3 item-head-title">John Doe</h2>
+                          <span class="item-head-desc text-uppercase">Web Designer</span>
+                        </div>
+                      </div> <!-- ./row -->
+                    </div> <!-- ./item-head -->
+                    <p class="item-body">Molestie at elementum eu facilisis sed odio. Scelerisque in dictum non consectetur a erat. Aliquam id diam maecenas ultricies mi eget mauris.</p>
+                  </div> <!-- ./our-testimonial-item -->
+                </div>
+                <div class="col-6">
+                  <div class="our-testimonial-item">
+                    <div class="item-head">
+                      <div class="row">
+                        <div class="col-md-3 col-4">
+                          <img class="item-head-img" src="images/testimonial/perso1.webp" alt="images John Doe ">
+                        </div>
+                        <div class="col-md-9 col-8">
+                          <h2 class="h3 item-head-title">John Doe</h2>
+                          <span class="item-head-desc text-uppercase">Web Designer</span>
+                        </div>
+                      </div> <!-- ./row -->
+                    </div> <!-- ./item-head -->
+                    <p class="item-body">Molestie at elementum eu facilisis sed odio. Scelerisque in dictum non consectetur a erat. Aliquam id diam maecenas ultricies mi eget mauris.</p>
+                  </div> <!-- ./our-testimonial-item -->
+                </div>
+              </div> <!-- ./row -->
+            </div> <!-- ./carousel-item -->
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-6">
+                  <div class="our-testimonial-item">
+                    <div class="item-head">
+                      <div class="row">
+                        <div class="col-md-3 col-4">
+                          <img class="item-head-img" src="images/Testimonial/perso1.webp" alt="images John Doe ">
+                        </div>
+                        <div class="col-md-9 col-8">
+                          <h2 class="h3 item-head-title">John Doe</h2>
+                          <span class="item-head-desc text-uppercase">Web Designer</span>
+                        </div>
+                      </div> <!-- ./row -->
+                    </div> <!-- ./item-head -->
+                    <p class="item-body">Molestie at elementum eu facilisis sed odio. Scelerisque in dictum non consectetur a erat. Aliquam id diam maecenas ultricies mi eget mauris.</p>
+                  </div> <!-- ./our-testimonial-item -->
+                </div>
+                <div class="col-6">
+                  <div class="our-testimonial-item">
+                    <div class="item-head">
+                      <div class="row">
+                        <div class="col-md-3 col-4">
+                          <img class="item-head-img" src="images/testimonial/perso2.webp" alt="images John Doe ">
+                        </div>
+                        <div class="col-md-9 col-8">
+                          <h2 class="h3 item-head-title">John Doe</h2>
+                          <span class="item-head-desc text-uppercase">Web Designer</span>
+                        </div>
+                      </div> <!-- ./row -->
+                    </div> <!-- ./item-head -->
+                    <p class="item-body">Molestie at elementum eu facilisis sed odio. Scelerisque in dictum non consectetur a erat. Aliquam id diam maecenas ultricies mi eget mauris.</p>
+                  </div> <!-- ./our-testimonial-item -->
+                </div>
+              </div> <!-- ./row -->
+            </div> <!-- ./carousel-item -->
+          </div> <!-- ./carousel-inner -->
+        </div> <!-- #/carouselExampleSlidesOnly -->
+      </div> <!-- ./container -->
+     </div> <!-- ./overlay -->
+    </div> <!-- ./our-testimonial -->
+    <!--Start Our Team -->
+    <div id="team" class="our-team pd-y">
+      <div class="container">
+        <section class="section-headers">
+          <h2 class="title">Our Team</h2>
+          <span class="line"></span>
+        </section><!-- ./section-headers -->
+        <div class="row">
+          <div class="col-md-3 col-6">
+            <div class="our-team-item hover-top">
+              <div class="team-item-img">
+                <img src="images/team/team1.webp" alt="Image Item Iteam 1">
+                <div class="team-overlay">
+                  <a class="hover-opacity" href="#"><i class="fa fa-facebook fa-fw"></i> </a>
+                  <a class="hover-opacity" href="#"><i class="fa fa-google-plus fa-fw"></i> </a>
+                  <a class="hover-opacity" href="#"><i class="fa fa-twitter fa-fw"></i> </a>
+                </div> <!-- ./team-overlay -->
+              </div> <!-- ./team-item-img -->
+              <div class="team-item-info text-center">
+                <h3 class="title">John Doe</h3>
+                <span class="desc">WEB DESIGNER</span>
+              </div> <!-- ./team-item-info -->
+            </div> <!-- ./our-team-item -->
+          </div>
+          <div class="col-md-3 col-6">
+            <div class="our-team-item hover-top">
+              <div class="team-item-img">
+                <img src="images/team/team2.webp" alt="Image Item Iteam 1">
+                <div class="team-overlay">
+                  <a class="hover-opacity" href="#"><i class="fa fa-facebook fa-fw"></i> </a>
+                  <a class="hover-opacity" href="#"><i class="fa fa-google-plus fa-fw"></i> </a>
+                  <a class="hover-opacity" href="#"><i class="fa fa-twitter fa-fw"></i> </a>
+                </div> <!-- ./team-overlay -->
+              </div> <!-- ./team-item-img -->
+              <div class="team-item-info text-center">
+                <h3 class="title">John Doe</h3>
+                <span class="desc">WEB DESIGNER</span>
+              </div> <!-- ./team-item-info -->
+            </div> <!-- ./our-team-item -->
+          </div>
+          <div class="col-md-3 col-6">
+            <div class="our-team-item hover-top">
+              <div class="team-item-img">
+                <img src="images/team/team3.webp" alt="Image Item Iteam 1">
+                <div class="team-overlay">
+                  <a class="hover-opacity" href="#"><i class="fa fa-facebook fa-fw"></i> </a>
+                  <a class="hover-opacity" href="#"><i class="fa fa-google-plus fa-fw"></i> </a>
+                  <a class="hover-opacity" href="#"><i class="fa fa-twitter fa-fw"></i> </a>
+                </div> <!-- ./team-overlay -->
+              </div> <!-- ./team-item-img -->
+              <div class="team-item-info text-center">
+                <h3 class="title">John Doe</h3>
+                <span class="desc">WEB DESIGNER</span>
+              </div> <!-- ./team-item-info -->
+            </div> <!-- ./our-team-item -->
+          </div>
+           <div class="col-md-3 col-6">
+            <div class="our-team-item hover-top">
+              <div class="team-item-img">
+                <img src="images/team/team1.webp" alt="Image Item Iteam 1">
+                <div class="team-overlay">
+                  <a class="hover-opacity" href="#"><i class="fa fa-facebook fa-fw"></i> </a>
+                  <a class="hover-opacity" href="#"><i class="fa fa-google-plus fa-fw"></i> </a>
+                  <a class="hover-opacity" href="#"><i class="fa fa-twitter fa-fw"></i> </a>
+                </div> <!-- ./team-overlay -->
+              </div> <!-- ./team-item-img -->
+              <div class="team-item-info text-center">
+                <h3 class="title">John Doe</h3>
+                <span class="desc">WEB DESIGNER</span>
+              </div> <!-- ./team-item-info -->
+            </div> <!-- ./our-team-item -->
+          </div>
+        </div> <!-- ./row -->
+      </div> <!-- ./container -->
+    </div> <!--./our-team -->
+    <!-- Start Resent News-->
+    <div id="blog" class="resent-news pd-y">
+      <div class="container">
+        <section class="section-headers">
+          <h2 class="title">Recents News</h2>
+          <span class="line"></span>
+        </section><!-- ./section-headers -->
+        <div class="row">
+          <div class="col-md-4">
+            <div class="resent-news-item">
+              <img src="images/blog/blog1.webp" alt="Image Blog 1">
+              <div class="resent-news-info">
+                <ul class="list-unstyled list-resent-news ">
+                  <li><i class="fa fa-user fa-fw"></i> John doe</li>
+                  <li><i class="fa fa-clock-o fa-fw"></i> 18 Oct</li>
+                  <li><i class="fa fa-comments fa-fw"></i> 57</li>
+                </ul> <!-- ./list-resent-news  -->
+                <h3 class="title">Molestie at elementum eu facilisis sed odio</h3>
+                <p class="desc">Nec feugiat nisl pretium fusce id velit ut tortor pretium. Nisl purus in mollis nunc sed. Nunc non blandit massa enim nec.</p>
+                <a class="link" href="blog.html">Read more</a>
+              </div> <!-- ./resent-news-info -->
+            </div> <!-- ./resent-news-item -->
+          </div>
+          <div class="col-md-4">
+            <div class="resent-news-item">
+              <img src="images/blog/blog2.webp" alt="Image Blog 2">
+              <div class="resent-news-info">
+                <ul class="list-unstyled list-resent-news ">
+                  <li><i class="fa fa-user fa-fw"></i> John doe</li>
+                  <li><i class="fa fa-clock-o fa-fw"></i> 18 Oct</li>
+                  <li><i class="fa fa-comments fa-fw"></i> 57</li>
+                </ul> <!-- ./list-resent-news  -->
+                <h3 class="title">Molestie at elementum eu facilisis sed odio</h3>
+                <p class="desc">Nec feugiat nisl pretium fusce id velit ut tortor pretium. Nisl purus in mollis nunc sed. Nunc non blandit massa enim nec.</p>
+                <a class="link" href="blog.html">Read more</a>
+              </div> <!-- ./resent-news-info -->
+            </div> <!-- ./resent-news-item -->
+          </div>
+          <div class="col-md-4">
+            <div class="resent-news-item">
+              <img src="images/blog/blog3.webp" alt="Image Blog 3">
+              <div class="resent-news-info">
+                <ul class="list-unstyled list-resent-news ">
+                  <li><i class="fa fa-user fa-fw"></i> John doe</li>
+                  <li><i class="fa fa-clock-o fa-fw"></i> 18 Oct</li>
+                  <li><i class="fa fa-comments fa-fw"></i> 57</li>
+                </ul> <!-- ./list-resent-news  -->
+                <h3 class="title">Molestie at elementum eu facilisis sed odio</h3>
+                <p class="desc">Nec feugiat nisl pretium fusce id velit ut tortor pretium. Nisl purus in mollis nunc sed. Nunc non blandit massa enim nec.</p>
+                <a class="link" href="blog.html">Read more</a>
+              </div> <!-- ./resent-news-info -->
+            </div> <!-- ./resent-news-item -->
+          </div>
+        </div> <!-- ./row -->
+      </div> <!-- ./container -->
+    </div> <!-- ./resent-news -->
+    <!--Start Contact Us-->
+    <div id="contact-us" class="contact-us pd-y">
+      <div class="container">
+        <section class="section-headers">
+          <h2 class="title">Get In Touch</h2>
+          <span class="line"></span>
+        </section><!-- ./section-headers -->
+        <div class="row">
+          <div class="col-4">
+            <div class="info text-center">
+              <i class="fa fa-phone fa-2x fa-fw"></i>
+              <h3 class="title">Phone</h3>
+              <span class="desc">512-421-3940</span>
+            </div> <!-- ./info -->
+          </div>
+          <div class="col-4">
+            <div class="info text-center">
+              <i class="fa fa-envelope fa-2x fa-fw"></i>
+              <h3 class="title">Email</h3>
+              <span class="desc">email@support.com</span>
+            </div> <!-- ./info -->
+          </div>
+          <div class="col-4">
+            <div class="info text-center">
+              <i class="fa fa-map-marker fa-2x fa-fw"></i>
+              <h3 class="title">Address</h3>
+              <span class="desc">1739 Bubby Drive</span>
+            </div> <!-- ./info -->
+          </div>
+        </div> <!-- ./row -->
+        <div class="form text-center">
+          <form action="">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="form-group">
+                  <input class="form-control" type="text" placeholder="Name">
+                </div>
+              </div> <!--./form-group -->
+              <div class="col-md-6">
+                <div class="form-group">
+                  <input class="form-control" type="email" placeholder="Email">
+                </div>
+              </div> <!--./form-group -->
+            </div> <!-- ./row -->
+            <div class="form-group">
+              <input class="form-control" type="text" placeholder="Subject">
+            </div> <!--./form-group -->
+             <div class="form-group">
+              <textarea class="form-control" rows="5" type="text" placeholder="Subject"></textarea>
+            </div> <!--./form-group -->
+            <input class="btn hover-opacity btn-info" type="submit" value="Send Message" placeholder="Subject">
+          </form>
+        </div> <!-- ./form -->
+      </div> <!-- ./container -->
+    </div> <!-- ./contact-us -->
+    <!-- Start Footer-->
+    <div class="footer pd-y text-center">
+      <div class="container">
+        <img src="images/logo-alt.webp" alt="Images Logo alt">
+        <ul class="list-unstyled footer-links">
+          <li><a href="#"><i class="hover-opacity fa fa-facebook fa-fw"></i></a></li>
+          <li><a href="#"><i class="hover-opacity fa fa-twitter fa-fw"></i></a></li>
+          <li><a href="#"><i class="hover-opacity fa fa-google-plus fa-fw"></i></a></li>
+          <li><a href="#"><i class="hover-opacity fa fa-instagram fa-fw"></i></a></li>
+          <li><a href="#"><i class="hover-opacity fa fa-linkedin fa-fw"></i></a></li>
+          <li><a href="#"><i class="hover-opacity fa fa-youtube fa-fw"></i></a></li>
+        </ul> <!--- ./footer-links -->
+        <p class="copy-right">COPYRIGHT &copy; 2020. ALL RIGHTS RESERVED. DESIGNED BY <a href="#">MOHAMMED</a> </p>
+      </div> <!-- ./container -->
+    </div> <!-- ./footer -->
+    <!-- Start Scroll To Top-->
+    <div id="scroll-top">
+      <i class="fa fa-chevron-up fa-lg"></i>
+    </div> <!-- #/scroll-top -->
+    <!-- Start Loading -->
+    <div class="loading-overlay">
+      <div class="spinner">
+        <div class="rect1"></div>
+        <div class="rect2"></div>
+        <div class="rect3"></div>
+        <div class="rect4"></div>
+        <div class="rect5"></div>
+      </div> <!-- ./spinner -->
+    </div> <!-- ./loading-overlay -->
+
+    <script src="js/jquery-3.5.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
+    <script src="lightbox/js/lightbox.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
